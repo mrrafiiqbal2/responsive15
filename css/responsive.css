@@ -1,0 +1,674 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+ .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: x-small;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin: 0px 0px 0px 20px;
+    color: white;
+}
+.head-banner .title {
+    padding: 0px;
+    margin: 0px 0px 0px 40px;
+}
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: white;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0px;
+    color: white;
+}
+.icon-header {
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.head-banner {
+    width: 100%;
+    padding: 0px;
+}
+.head-banner .title {
+    padding: 80px 0px;
+    margin: 0px;
+}
+.group-4-card {
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.group-5 {
+    width: 100%;
+    padding: 0px 0px;
+}
+.group-6 .title {
+    padding: 0px;
+}
+.group-6 .title p {
+    padding: 0px;
+    font-size: 20px;
+    color: white;
+}
+.group-6 .title h5 {
+    padding: 0px;
+    color: white;
+    font-size: 22px;
+}
+.grp-6-img{
+  width: 100%;
+  padding: 20px 0px;
+  margin: 0px 0px 0px 20px;
+}
+.group-7 .title .icon-7 {
+    padding: 0px;
+}
+
+ }
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: white;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0px;
+    color: white;
+}
+.icon-header {
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.head-banner {
+    width: 100%;
+    padding: 0px;
+}
+.head-banner .title {
+    padding: 80px 0px;
+    margin: 0px;
+}
+.group-2 .title {
+    padding: 0px;
+    margin: 0px;
+}
+.group-4 {
+    width: 100%;
+    padding: 0px;
+}
+.group-3 {
+    width: 100%;
+    padding: 20px 0px;
+    background: url(../images/Background3.png) center top no-repeat;
+    background-size: cover;
+    box-shadow: 20px 22px 23px 55px #fff;
+    text-align: center;
+}
+.group-4-card {
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0px;
+}
+.group-5 {
+    width: 100%;
+    padding: 0px;
+}
+.group-6 .title {
+    padding: 0px;
+}
+.group-6 .title p {
+    padding: 0px;
+    font-size: 20px;
+}
+
+.group-6 .title h5 {
+    padding: 0px;
+    color: white;
+    font-size: 22px;
+}
+.grp-6-img{
+  padding: 14px 0px;
+}
+.group-7 .title p {
+    padding: 0px;
+    color: white;
+    font-size: 17px;
+}
+.copyrights {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0px;
+    color: white;
+}
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: white;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+.icon-header {
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.head-banner {
+    width: 100%;
+    padding: 0px;
+}
+.head-banner .title {
+    padding: 80px 0px;
+    margin: 0px;
+}
+
+.head-banner .title h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+}
+.group-2 .title {
+    padding: 0px;
+    margin: 0px;
+}
+.group-3 {
+  margin: 0px 0px 0px 10px;
+    width: 100%;
+    padding: 0px;
+    background: url(../images/Background3.png) center top no-repeat;
+    background-size: cover;
+    box-shadow: 20px 22px 23px 55px #fff;
+    text-align: center;
+}
+.group-4-card {
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0px 0px 0px 20px;
+}
+.card-dawon-title p {
+    color: white;
+    font-size: x-small;
+}
+.group-5 {
+    width: 100%;
+    padding: 0px;
+}
+.group-5 .title {
+    padding: 10px 0px;
+}
+.group-6 .title {
+    padding: 40px 0px;
+}
+.group-6 .title p {
+   padding: 0px 0px; 
+    font-size: x-small;
+    color: white;
+}
+.group-6 .title h5 {
+    padding: 0px 0px;
+    color: white;
+    font-size: 22px;
+}
+.group-6 .title .btn-primary {
+    background: transparent;
+    color: white;
+    border: 1px solid #eee;
+    border-radius: 1px;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.group-7 .title p {
+    padding: 0px;
+    color: white;
+    font-size: small;
+}
+.group-7 .title .icon-7 .fa {
+    padding: 20px 0px;
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+    letter-spacing: 2px;
+}
+.group-7 .title .icon-7 {
+    padding: 10px 0px;
+}
+.group-7 {
+    width: 100%;
+    padding: 0px;
+}
+.group-8 .title h1 {
+    color: white;
+    font-size: 20px;
+    padding: 0px;
+}
+.group-8 {
+    margin: 0px 0px 0px 5px;
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/Background8.png) center top no-repeat;
+    background-size: cover;
+}
+.footer {
+    margin: 0px 0px 0px 5px;
+    width: 100%;
+    padding: 40px 0px;
+    background: url(../images/Backgroundf.png) center top no-repeat;
+    background-size: cover;
+}
+.copyrights {
+    color: white;
+    font-size: 15px;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 0px;
+}
+ 
+}
+
+
+
+
+@media (min-width: 200px) and (max-width: 319px) {
+  
+  .header .img-fluid {
+    padding: 10px 0px;
+    width: 45%;
+    height: auto;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flow-root;
+    flex-wrap: inherit;
+    align-items: center;
+
+}
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: white;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0px;
+    color: white;
+}
+.me-2 {
+    margin-right: 0.2rem!important;
+}
+.icon-header .fa {
+    padding: 10px 0px;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 0px;
+}
+.icon-header {
+    margin: 0px;
+}
+.head-banner {
+    width: 100%;
+    padding: 0px;
+}
+.head-banner .title {
+    padding: 40px 0px;
+    margin: 0px;
+}
+.head-banner .title h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    }
+    .head-banner .title p {
+    padding: 10px 0px;
+    text-transform: capitalize;
+    color: white;
+    font-size: xx-small;
+    font-weight: bold;
+}
+.banner-btn .btn-success {
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0px;
+    background: black;
+    color: white;
+    transition: 1s;
+    border: 10px solid transparent;
+    border-radius: 40px;
+}
+
+.header  .banner-img{
+    max-width: 90%;
+    height: auto;
+}
+.group-2 .title {
+    padding: 10px;
+    margin: 0px;
+}
+.group-2 .title h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.group-2 .title h3 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.group-2 .title p {
+    padding: 10px 0px;
+    text-transform: capitalize;
+    color: white;
+    font-size: xx-small;
+    font-weight: bold;
+}
+.group-3 {
+    width: 100%;
+    padding: 0px;
+    background: url(../images/Background3.png) center top no-repeat;
+    background-size: cover;
+    /* box-shadow: 20px 22px 23px 55px #fff; */
+    text-align: center;
+}
+.grp-3-icon .fa {
+    font-size: 50px;
+    padding: 10px 0px;
+    color: white;
+}
+.group-3 .title h1 {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px;
+}
+.group-4 {
+    width: 100%;
+    padding: 0px;
+}
+
+.group-4 .title {
+    padding: 20px 0px;
+    text-align: center;
+}
+.group-4-card {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.group-4-card element.style {
+    width: auto;
+}
+.group-4 .title h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.7em;
+}
+.group-4-card .card-body h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.group-4-card .card-body p {
+    font-size: xx-small;
+    font-weight: bold;
+}
+.group-4-card .card-body .btn-primary {
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    border-radius: 1px;
+}
+
+
+.card-dawon-title p {
+    color: white;
+    font-size: xx-small;
+}
+
+.group-5 {
+    width: 100%;
+    padding: 0px;
+}
+.group-5 .title {
+    padding: 10px 0px;
+}
+.group-5 .title p {
+    font-size: xx-small;
+    color: white;
+    padding: 20px 0px;
+}
+.group-5 .title .btn-primary {
+    background: transparent;
+    color: white;
+    border: 1px solid #eee;
+    border-radius: 1px;
+     padding: 1
+     px 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.group-6 .title {
+    padding: 0px;
+}
+.group-6 .title h1 {
+    color: white;
+    font-size: 20px;
+}
+.group-6 .title p {
+    padding: 10px 0px;
+    font-size: xx-small;
+    color: white;
+}
+.group-6 .title h5 {
+    padding: 0px;
+    color: white;
+    font-size: 22px;
+}
+.group-6 .title .btn-primary {
+    background: transparent;
+    color: white;
+    border: 1px solid #eee;
+    border-radius: 1px;
+    padding: 1px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.grp-6-img{
+  padding: 10px 0px;
+}
+.group-7 {
+    width: 100%;
+    padding: 0px;
+}
+.group-7 .title p {
+    padding: 0px;
+    color: white;
+    font-size: xx-small;
+}
+.group-7 .title .icon-7 {
+    padding: 0px;
+}
+.group-7 .title .icon-7 .fa {
+    padding: 10px 0px;
+    color: white;
+    font-size: 15px;
+    margin: 0px;
+    letter-spacing: 0px;
+}
+.group-8 {
+    width: 100%;
+    padding: 0px;
+    background: url(../images/Background8.png) center top no-repeat;
+    background-size: cover;
+}
+.group-8 .title h1 {
+    color: white;
+    font-size: 15px;
+    padding: 40px 0px;
+}
+.footer {
+    width: 100%;
+    padding: 20px 0px;
+    background: url(../images/Backgroundf.png) center top no-repeat;
+    background-size: cover;
+}
+.footer .logo-footer h5 {
+    color: white;
+    font-size: 18px;
+}
+p {
+    font-size: xx-small;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.footer .list-menu li a {
+    font-size: small;
+    color: black;
+    text-decoration: none;
+    padding: 10px 0px;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 0px;
+}
+
+.copyrights {
+    color: white;
+    font-size: x-small;
+}
+.group-7 .title h1 {
+     padding: 0px 0px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}

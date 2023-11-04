@@ -1,0 +1,416 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.7em;
+	background: url("../images/Background.png") center top no-repeat;
+	background-size: cover;
+}
+h1, h2, h3, h4, h5, h6{
+   font-family: 'Audiowide', sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+	list-style: none;
+}
+
+/*header start*/
+.header{
+	width: 100%;
+}
+.header .img-fluid{
+	width: 80%;
+	height: auto;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin: 0px 0px 0px 50px;
+	color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+	background: transparent;
+	color: red;
+	transition: 1s;
+}
+.header .btn-success{
+	font-size: 13px;
+	color: black;
+	background: white;
+	transition: 1s;
+	border: 1px solid transparent;
+	border-radius: 1px;
+}
+.header .btn-success:hover{
+	color: red;
+	background: white;
+}
+.icon-header{
+	margin: 0px 0px 0px 40px;
+}
+.icon-header .fa{
+	font-size: 30px;
+	color: white;
+	letter-spacing: 10px;
+}
+
+.icon-header .fa:hover{
+	background: transparent;
+	color: black;
+}
+.head-banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.head-banner .title{
+	padding: 80px 0px;
+	margin: 0px 0px 0px 40px;
+}
+.head-banner .title h1{
+	text-transform: uppercase;
+	color: white;
+	font-size: 62px;
+	font-weight: bold;
+
+}
+.head-banner .title h3{
+   text-transform: uppercase;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+
+}
+.head-banner .title p{
+	padding: 10px 0px;
+   text-transform: capitalize;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+
+.banner-btn .btn-success{
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 5px 70px;
+      background: black;
+      color: white;
+      transition: 1s;
+      border: 10px solid transparent;
+      border-radius: 40px;
+}
+.banner-btn .btn-success:hover{
+	background: white;
+	color: black;
+}
+/*header end*/
+
+
+/*group-2 start*/
+.group-2{
+	width: 100%;
+	padding: 20px 0px;
+}
+.group-2 .title{
+	padding: 250px 0px;
+	margin: 0px 0px 0px 40px;
+}
+.group-2 .title h1{
+   text-transform: uppercase;
+	color: white;
+	font-size: 62px;
+	font-weight: bold;
+
+}
+.group-2 .title h3{
+   text-transform: uppercase;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+
+}
+.group-2 .title p{
+	padding: 10px 0px;
+   text-transform: capitalize;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+
+/*group-2 end*/
+
+/*group-3 start*/
+ .group-3{
+ 	width: 100%;
+ 	padding: 80px 0px;
+ 	background: url("../images/Background3.png") center top no-repeat;
+ 	background-size: cover;
+/* 	box-shadow: 20px 22px 23px 55px #fff;*/
+ 	text-align: center;
+ }
+ .group-3:hover{
+ 	background: black;
+ 	color: white;
+ 	transition: 2.1s;
+ }
+ .grp-3-icon .fa{
+ 	font-size: 140px;
+ 	padding: 30px 0px;
+ 	color: white;
+ }
+
+ .group-3 .title h1{
+   font-size: 40px;
+   color: white;
+   font-weight: bold;
+   text-transform: uppercase;
+   padding: 10px 0px;
+ }
+ .group-3 .title p{
+ 	font-size: 14px;
+ 	color: white;
+ 	text-transform: capitalize;
+ 	font-weight: 300;
+ }
+/*group-3 end*/
+
+/*group-4 start*/
+.group-4{
+	width: 100%;
+	padding: 100px 0px;
+}
+.group-4 .title{
+	padding: 60px 0px;
+	text-align: center;
+}
+.group-4 .title h1{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 1.7em;
+}
+.group-4-card{
+	text-align: center;
+	padding: 20px 0px;
+	margin: 0px 0px 0px 50px;
+	
+}
+.group-4-card .card-img-top{
+	width: 100%;
+	height: auto;
+}
+
+.group-4-card .card-body h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+.group-4-card .card-body p{
+   font-size: 14px;
+   font-weight: bold;
+}
+.group-4-card .card-body .btn-primary{
+	background: black;
+	color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 5px 30px;
+	border: 1px solid #eee;
+	border-radius: 1px;
+}
+.group-4-card .card-body .btn-primary:hover{
+	background: white;
+	color: black;
+	transition: 1s;
+
+}
+.card-dawon-title{
+	padding: 40px 0px;
+	text-align: center;
+}
+.card-dawon-title p{
+	color: white;
+	font-size: 18px;
+}
+/*group-4 end*/
+
+/*group-5 start*/
+.group-5{
+	width: 100%;
+	padding: 150px 0px;
+}
+.group-5 .title{
+	padding: 100px 0px;
+}
+.group-5 .title h1{
+	font-size: 40px;
+	color: white;
+}
+.group-5 .title p{
+ font-size: 15px;
+ color: white;
+ padding: 20px 0px;
+}
+.group-5 .title .btn-primary{
+  background: transparent;
+  color: white;
+  border: 1px solid #eee;
+  border-radius: 1px;
+  padding: 10px 60px;
+  font-size: 14px;
+  text-transform: uppercase;
+
+}
+.group-5 .title .btn-primary:hover{
+	background: black;
+	color: white;
+	transition: 1.5s;
+}
+/*group-5 end*/
+
+/*group-6 start*/
+.group-6{
+	width: 100%;
+}
+.group-6 .title{
+	padding: 150px 0px;
+}
+.group-6 .title h1{
+  color: white;
+  font-size: 40px;
+}
+.group-6 .title p{
+	padding: 80px 0px;
+	font-size: 20px;
+	color: white;
+}
+.group-6 .title h5{
+ padding: 40px 0px;
+ color: white;
+ font-size: 22px;
+}
+.group-6 .title h4{
+ padding: 20px 0px;
+ color: white;
+ font-size: 22px;
+}
+.group-6 .title .btn-primary{
+	 background: transparent;
+  color: white;
+  border: 1px solid #eee;
+  border-radius: 1px;
+  padding: 10px 60px;
+  font-size: 14px;
+  text-transform: uppercase;
+
+}
+.group-6 .title .btn-primary:hover{
+		background: black;
+	color: white;
+	transition: 1.5s;
+}
+/*group-6 end*/
+
+/*group-7 start*/
+.group-7{
+	width: 100%;
+	padding: 130px 0px;
+}
+.group-7 .title h1{
+   padding: 40px 0px;
+   color: white;
+   font-size: 45px;
+}
+.group-7 .title p{
+	padding: 40px 0px;
+	color: white;
+	font-size: 17px;
+}
+.group-7 .title .icon-7{
+	padding: 60px 0px;
+}
+.group-7 .title .icon-7 .fa{
+	padding: 20px 0px;
+	color: white;
+	font-size: 30px;
+	margin: 0px 0px 0px 10px;
+	letter-spacing: 2px;
+}
+/*group-7 end*/
+
+/*group-8 start*/
+.group-8{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/Background8.png") center top no-repeat;
+	background-size: cover;
+}
+.group-8 .title{
+	text-align: center;
+}
+.group-8 .title h1{
+	color: white;
+	font-size: 45px;
+	padding: 40px 0px;
+}
+/*group-8 end*/
+
+/*.footer start*/
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/Backgroundf.png") center top no-repeat;
+	background-size: cover;
+}
+.footer .logo-footer{
+	
+}
+.footer .logo-footer h5{
+	 color: white;
+	 font-size: 30px;
+}
+.footer .list-menu{
+	padding: 10px 0px;
+	list-style: none;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.2em;
+	color: black;
+
+}
+.footer .list-menu  li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 0px;
+}
+.text-footer{
+	color: white;
+}
+.footer-bottom{
+	text-align: center;
+	padding: 20px 0px;
+}
+.copyrights{
+	color: white;
+	font-size: 25px;
+}
+.copyrights a{
+	color: grey;
+	text-decoration: none;
+}
+/*footer end*/
